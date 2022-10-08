@@ -13,7 +13,6 @@ function ParrySoul:init(x, y)
     -- Disables focus. Why would you want to move even slower?
     self.allow_focus = false
 
-    kris = Game:getPartyMember("kris")
 
     self.parry_timer = 0
     self.cooldown_timer = 0
