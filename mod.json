@@ -1,0 +1,13 @@
+{
+    "id": "parrysoultesting",
+    "name": "Parry Soul testing",
+    "subtitle": "",
+
+    "chapter": 2,
+
+    "encounter": "ParryDummy",
+
+    "party": ["kris"]
+
+
+}
