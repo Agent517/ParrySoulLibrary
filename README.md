@@ -30,3 +30,8 @@ The ParrySoul object has a few variables and functions that can be used to deter
 
 `canParry()`: Returns if the soul can parry. Depends on if parrying is enabled to begin with, if the soul is already parrying, if cooldown is active, and if the soul has damage i-frames.<br>
 `isParrying()`: Returns if the soul is currently parrying. Calling this in a bullet's `onCollide()` function is a convenient way to have a bullet react to being parried.
+
+## Known Issues
+
+* Bullets set to do 0 damage will do damage anyway, assuming you don't parry them.<br>
+  * You can get around this by overriding the bullet's `onDamage` function.
